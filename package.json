@@ -1,0 +1,19 @@
+{
+  "name": "prime-vendas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.0"
+  }
+}

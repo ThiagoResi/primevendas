@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(235, 235, 235, 0.74);
+}
+.header{
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    /* border-radius: 0 0 15px 15px; */
+    position: fixed;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #64646485;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

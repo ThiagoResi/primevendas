@@ -1,0 +1,33 @@
+#saldo-em-caixa{
+    font-size: 30pt;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+}
+a{
+    width: 20%;
+    margin: 3%;
+    
+}
+.btn:hover{
+    color: black;
+}
+.btn-outline-success{
+    border-color: rgba(0, 177, 0, 0.87);
+}
+.btn-outline-success:hover{
+    border-color: rgba(0, 177, 0, 0.87);
+    background-color: rgba(0, 177, 0, 0.87);
+}
+img{
+    width: 40pt;
+    max-width: 50pt;
+    margin: 1%;
+    margin-right: 5%;
+}

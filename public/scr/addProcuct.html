@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="../CSS/body.css" />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/cart.css" />
+    <link rel="stylesheet" href="../CSS/stock.css">
+    <link rel="shortcut icon" href="favicon.ico" type="../IMG/stock.svg">
+    <title>Prime Vendas</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Mercado Cardoso</h1>
+        <div id="saldo-em-caixa">R$: 0,00</div>
+    </div>
+
+    <div class="main">
+        <div class="menu">
+            <a href="./cart.html">
+                <button type="button" class="btn btn-outline-success">
+                    <img src="../IMG/cart.svg" /><br />
+                    Iniciar Vendas
+                </button>
+            </a>
+            <a href="./addProcuct.html">
+                <button type="button" class="btn btn-outline-primary">
+                    <img src="../IMG/addProduct.svg" /><br />
+                    Cadastrar Produtos
+                </button>
+            </a>
+            <a href="./stock.html">
+                <button type="button" class="btn btn-outline-warning">
+                    <img src="../IMG/stock.svg" /><br />
+                    Estoque
+                </button>
+            </a>
+        </div>
+
+
+        <div class="conteudo bg-dark">
+            <form class="input-stock bg-light">
+                <center>
+                    <h2>Adicionar Produtos</h2>
+                </center>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Nome do Produto">
+
+                <input type="number" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Quantidade em Estoque">
+
+                <input type="number" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Código de Barras">
+
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Preço">
+
+                <button class="btn btn-outline-success btn-cad">Cadastrar Produto</button>
+                <button class="btn btn-outline-danger btn-cad">Cancelar Cadastro</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="../JS/connect-database.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>
